@@ -10,7 +10,4 @@ class PagesController < ApplicationController
 
   def projects
   end
-
-  def photography
-  end
 end
