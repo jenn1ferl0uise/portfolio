@@ -1,9 +1,12 @@
 .hero {
-  text-align: left;
-  margin: 20px;
+  text-align: center;
+  .pink {
+    color: #EB5160;
+  }
   h1 {
     font-size: 50px;
     top: 120px;
+    color: #FFFBFC;
   }
   h2 {
     font-size: 35px;
@@ -12,5 +15,10 @@
     border: 1px solid #FFFBFC;
     border-radius: 5px;
     padding: 2px 10px;
+    &:hover {
+      color: #EB5160;
+      border: 1px solid #EB5160;
+      opacity: 1;
+    }
   }
 }
