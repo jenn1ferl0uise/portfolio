@@ -21,4 +21,13 @@
       opacity: 1;
     }
   }
+  .home-photo {
+    background: url(Jennifer.jpg) 50% 20% no-repeat;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    border-radius: 50%;
+    border: 1px solid #03B5AA;
+    box-shadow: 5px 5px 9px -5px rgba(0,0,0,0.75);
+  }
 }
